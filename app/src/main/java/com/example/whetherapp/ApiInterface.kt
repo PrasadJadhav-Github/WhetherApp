@@ -1,9 +1,9 @@
 package com.example.whetherapp
 
+import com.example.whetherapp.dataClass.whetherapp
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
-import java.util.concurrent.TimeUnit
 
 interface ApiInterface {
     @GET("weather")

@@ -1,4 +1,4 @@
-package com.example.whetherapp
+package com.example.whetherapp.dataClass
 
 data class Weather(
     val description: String,
